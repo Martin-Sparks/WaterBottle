@@ -19,4 +19,10 @@ public class WaterBottleTest {
         waterB.drink();
         assertEquals(90, waterB.getVolume());
     }
+
+    @Test
+    public void hasBottleEmpty(){
+        waterB.bottleEmpty();
+        assertEquals(0, waterB.getVolume());
+    }
 }
